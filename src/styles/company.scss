@@ -1,0 +1,201 @@
+.companyA{
+  padding: 96px 0;
+  &__top{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    &-title{
+      margin-top: 24px;
+      color: #000;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      text-transform: uppercase;
+    }
+  }
+  &__title{
+    margin: 20px 0 24px;
+    color: #232536;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+  }
+  &__text{
+    color: #232536;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  &__imgs{
+    display: flex;
+    justify-content: space-between;
+    margin: 64px 0 96px;
+    position: relative;
+    &-img{
+      position: absolute;
+      top: -25px;
+      right: 0;
+      z-index: -1;
+    }
+  }
+  &__row{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  &__left{
+    &-img{
+      display: flex;
+      flex-direction: column;
+      row-gap: 16px;
+      align-items: flex-start;
+    }
+    &-title{
+      color: #232536;
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 54px;
+      margin: 16px 0 24px;
+    }
+    &-text{
+      color: #232536;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+  &__right{
+    width: 624px;
+    padding: 62px 0 80px 110px;
+    background: rgba(255, 211, 175, 0.57);
+    display: flex;
+    column-gap: 62px;
+    &-title{
+      color: var(--Black, #232536);
+      font-size: 36px;
+      font-weight: 600;
+    }
+    &-text{
+      color: var(--Black, #232536);
+      font-size: 16px;
+      font-weight: 600;
+    }
+    &-row{
+      display: flex;
+      flex-direction: column;
+      row-gap: 30px;
+    }
+  }
+  &__icons{
+    width: 100%;
+    margin-top: 96px;
+    display: flex;
+    column-gap: 32px;
+    justify-content: center;
+    background: #FAFAFC;
+  }
+}
+.companyB{
+  padding: 96px 0;
+  background: #ECF8F9;
+  &__subtitle{
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+  &__title{
+    margin: 16px 0 24px;
+    color: #232536;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+  }
+  &__text{
+    color: #5D5F6D;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  &__row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.companyC{
+  padding: 96px 0;
+  &__subtitle{
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+  &__title{
+    color: #232536;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    margin: 16px 0 24px;
+  }
+  &__title2{
+    color: #232536;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    margin: 16px 0 24px;
+  }
+  &__text{
+    color: #232536;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  &__img{
+    margin: 64px 0 96px;
+  }
+  &__imgs{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 64px;
+    &-card{
+      cursor: pointer;
+      width: 320px;
+      height: 320px;
+      position: relative;
+      &:hover .companyC__imgs-overlay{
+        opacity: 1; /* При наведении, блок становится видимым */
+      }
+    }
+    &-overlay{
+      padding-top: 168px;
+      padding-left: 48px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 322px;
+      height: 322px;
+      background-color: rgba(35, 37, 54, 0.82);
+      opacity: 0; /* Изначально блок скрыт */
+      transition: opacity 0.3s ease; /* Плавное появление */
+    }
+    &-title{
+      color: #FFF;
+      font-size: 24px;
+      font-weight: 600;
+    }
+    &-subtitle{
+      color: #c6c6c6;
+      font-size: 14px;
+      margin: 8px 0 24px;
+      font-weight: 500;
+    }
+    &-icons{
+      color: white;
+      display: flex;
+      align-items: center;
+      column-gap: 23px;
+    }
+  }
+  &__form{
+    width: 100%;
+  }
+}

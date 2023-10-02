@@ -1,0 +1,162 @@
+.contactA{
+  padding: 96px 0 64px;
+  &__left{
+    &-title{
+      color: #000;
+      font-size: 14px;
+      font-weight: 500;
+      text-transform: uppercase;
+      margin: 24px 0;
+    }
+    &-box{
+      width: 24px;
+      height: 24px;
+      background: #FFD3AF;
+    }
+    &-text{
+      color: #232536;
+      font-size: 16px;
+      margin: 24px 0 64px;
+    }
+    &-btn{
+      padding: 20px 32px;
+      position: relative;
+      background: linear-gradient(180deg, #444CFC 0%, #444CFC 100%);
+      color: #FFF;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      column-gap: 13px;
+      margin: 56px 0 96px;
+      font-weight: 500;
+    }
+    &-icon{
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+  &__form{
+    &-title{
+      color: #707070;
+      font-size: 14px;
+      font-weight: 500;
+      max-width: max-content;
+    }
+    &-input{
+      margin: 8px 0;
+      outline: none;
+      border: none;
+      &::placeholder{
+        color: #232536;
+        font-size: 16px;
+      }
+    }
+    &-field{
+      border-bottom: #707070 solid 1px;
+      width: 405px;
+      display: flex;
+      flex-direction: column;
+    }
+    &-field2{
+      border-bottom: #707070 solid 1px;
+      width: 405px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 14px;
+    }
+    &-label{
+      display: flex;
+      flex-direction: column;
+      row-gap: 24px;
+    }
+    &-subtitle{
+      color: #707070;
+      font-size: 14px;
+      font-weight: 500;
+    }
+    &-text{
+      color: #232536;
+      font-size: 16px;
+      border: none;
+      outline: none;
+      width: 405px;
+      height: 80px;
+      &::placeholder{
+        font-size: 16px;
+      }
+    }
+  }
+  &__right{
+    width: 512px;
+    background: #666DFF;
+    padding: 83px 0 128px 96px;
+    position: relative;
+    &-title{
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      color: #c6c6c6;
+    }
+    &-title2{
+      margin-top: 24px;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      color: #c6c6c6;
+    }
+    &-title3{
+      margin-top: 28px;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      color: #c6c6c6;
+    }
+    &-line{
+      margin: 12px 0;
+      width: 268px;
+      height: 1px;
+      background: rgba(0, 0, 0, 0.08);
+    }
+    &-text{
+      color: #FFF;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 28px;
+      span{
+        font-size: 14px;
+        color: #c6c6c6;
+        font-weight: 500;
+      }
+    }
+    &-text2{
+      font-size: 14px;
+      color: #c6c6c6;
+      font-style: normal;
+      font-weight: 500;
+    }
+    &-icons{
+      display: flex;
+      align-items: center;
+      column-gap: 26px;
+      margin-top: 54px;
+    }
+    &-top{
+      position: absolute;
+      top: -23px;
+      z-index: -1;
+      right: 0;
+    }
+    &-bottom{
+      position: absolute;
+      bottom: 0;
+      left: -22px;
+      z-index: -1;
+    }
+  }
+  &__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}

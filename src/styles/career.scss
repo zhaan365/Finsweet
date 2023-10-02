@@ -1,0 +1,124 @@
+.careerA{
+  &__top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 96px 0;
+    position: relative;
+    &-img{
+      top: 0;
+      right: 0;
+      position: absolute;
+    }
+    &-subtitle{
+      color: var(--Black, #232536);
+      text-align: center;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      text-transform: uppercase;
+    }
+    &-title{
+      color: var(--Black, #232536);
+      text-align: center;
+      font-size: 48px;
+      font-weight: 600;
+      line-height: 58px;
+      margin: 24px 0;
+    }
+    &-text{
+      color: var(--Black, #232536);
+      text-align: center;
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 64px;
+    }
+    &-text2{
+      color: #232536;
+      margin: 80px 0 16px;
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+  &__bottom{
+    padding: 78px 0;
+    justify-content: center;
+    margin-bottom: 96px;
+    background: #ECF8F9;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    &-card{
+      padding: 48px 0 30px 48px;
+      width: 354px;
+      background: #FFF;
+    }
+    &-title{
+      color: var(--Black, #232536);
+      font-size: 16px;
+      font-weight: 600;
+    }
+    &-text{
+      display: flex;
+      flex-direction: column;
+      row-gap: 3px;
+      margin: 10px 0 52px;
+      color: #707070;
+      font-size: 16px;
+    }
+    &-link{
+      max-width: max-content;
+      color: var(--iris-100, #5D5FEF);
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      column-gap: 12px;
+      font-weight: 500;
+    }
+  }
+}
+.careerB{
+  background: #FAFAFC;
+  padding: 96px 0;
+  &__subtitle{
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  &__title{
+    color: #232536;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    margin: 16px 0 24px;
+  }
+  &__text{
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+    margin-bottom: 64px;
+  }
+  &__card{
+    width: 418px;
+    padding: 32px 0 32px 32px;
+    background: #FFF;
+    &-title{
+      margin: 8px 0;
+      color: var(--Black, #232536);
+      font-size: 16px;
+      font-weight: 600;
+    }
+    &-text{
+      font-size: 14px;
+      color: #707070;
+      line-height: 20px;
+    }
+  }
+  &__row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+}

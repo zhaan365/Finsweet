@@ -1,0 +1,81 @@
+.serviceA{
+  padding: 96px 0;
+  background: #FFE6D2;
+  &__right{
+    &-subtitle{
+      color: var(--Dark, #232536);
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      text-transform: uppercase;
+    }
+    &-title{
+      margin: 12px 0 24px;
+      color: #232536;
+      font-size: 48px;
+      font-weight: 600;
+      line-height: 58px;
+    }
+    &-text{
+      margin-bottom: 40px;
+      color: var(--Dark, #232536);
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+  &__left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    &-title{
+      color: #232536;
+      font-size: 24px;
+      font-weight: 600;
+    }
+  }
+  &__row{
+    display: flex;
+    column-gap: 251px;
+    align-items: center;
+  }
+}
+.serviceB{
+  padding: 96px 0;
+  background: #F9F9FF;
+}
+.serviceC{
+  padding-bottom: 96px;
+  &__info{
+    padding-top: 141px;
+    &-subtitle{
+      color: #000;
+      font-size: 24px;
+      font-weight: 600;
+    }
+    &-title{
+      margin: 16px 0 24px;
+      color: #232536;
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 54px;
+    }
+    &-text{
+      color: #232536;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+  &__row{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.serviceD{
+  background: #ECF8F9;
+}
+.serviceE{
+  background: #F9F9FF;
+}
+.serviceF{
+  margin-bottom: -96px;
+}
